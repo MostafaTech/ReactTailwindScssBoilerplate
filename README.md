@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React Typescript with TailwindCSS and SCSS Boilerplate
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
