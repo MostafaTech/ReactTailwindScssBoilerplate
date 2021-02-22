@@ -1,16 +1,24 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import AppHeader from './components/AppHeader'
 import AppFooter from './components/AppFooter'
 import IndexView from './views/index'
-import './styles/App.scss';
+import AboutView from './views/about'
 
 function App() {
   return (
-    <div>
+    <Router>
       <AppHeader />
-      <IndexView />
+      <Switch>
+        <Route exact path="/">
+          <IndexView />
+        </Route>
+        <Route path="/about">
+          <AboutView />
+        </Route>
+      </Switch>
       <AppFooter />
-    </div>
+    </Router>
   );
 }
 

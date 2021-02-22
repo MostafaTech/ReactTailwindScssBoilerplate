@@ -22,7 +22,7 @@ export default class HeroPartial extends React.Component {
                 </svg>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Nuxt JS</h2>
+                <h2 className="text-gray-900 text-lg title-font font-medium mb-3">React JS (Typescript)</h2>
                 <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
                 <a className="mt-3 inline-flex items-center">Learn More
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">

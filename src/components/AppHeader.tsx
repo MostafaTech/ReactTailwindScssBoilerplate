@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 export default class AppHeader extends React.Component {
   render() {
@@ -12,10 +13,10 @@ export default class AppHeader extends React.Component {
             <span className="ml-3 text-xl">Tailblocks</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-gray-900" href="/">Home</a>
-            <a className="mr-5 hover:text-gray-900" href="/ecommerce">E-Commerce</a>
-            <a className="mr-5 hover:text-gray-900" href="/blog">Blog</a>
-            <a className="mr-5 hover:text-gray-900" href="/about">About</a>
+            <Link className="mr-5 hover:text-gray-900" to="/">Home</Link>
+            <Link className="mr-5 hover:text-gray-900" to="/ecommerce">E-Commerce</Link>
+            <Link className="mr-5 hover:text-gray-900" to="/blog">Blog</Link>
+            <Link className="mr-5 hover:text-gray-900" to="/about">About</Link>
           </nav>
           <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Sign in
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
